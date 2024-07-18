@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-pkkv#os+z#cnl6810&j@u+sc_n89h%v=2$##%fde05oh6pn@)g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -135,6 +135,7 @@ AUTH_PASSWORD_VALIDATORS = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "http://frontendpicke.s3-website.us-east-2.amazonaws.com",
 ]
 
 # Internationalization
